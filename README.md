@@ -1,1 +1,1 @@
-# developer-academy
+# Developer Academy (full website)
