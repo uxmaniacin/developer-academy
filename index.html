@@ -9,13 +9,213 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/simple-line-icons.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <script src="js/modernizr-2.6.2.min.js"></script>
   </head>
   <body>
+    <header id="main-header">
+			<div class="fluid-container">
+				<nav class="navbar navbar-default">
+					<div class="navbar-header">
+            <img src="images/logo.jpeg" href="index.html" id="logo"/>
 
+						<!-- Mobile Toggle Menu Button -->
+						<a href="#" class="js-nav-toggle nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="#" data-nav-section="home"><span>Főoldal</span></a></li>
+							<li><a href="#" data-nav-section="services"><span>Tanfolyamok</span></a></li>
+							<li><a href="#" data-nav-section="blogtext"><span>Blog</span></a></li>
+							<li><a href="#" data-nav-section="testimony"><span>Beszámolók</span></a></li>
+							<li><a href="#" data-nav-section="pricing"><span>Árak</span></a></li>
+							<li><a href="#" data-nav-section="team"><span>Csapat</span></a></li>
+							<li><a href="#" data-nav-section="contact"><span>Kapcsolat</span></a></li>
+						</ul>
+					</div>
+				</nav>
+		  </div>
+		</header>
+
+		<section id="home" data-section="home" style="background-image: url(images/people.jpg);" data-stellar-background-ratio="0.5">
+			<div class="gradient"></div>
+			<div class="container">
+				<div class="text-wrap">
+					<div class="text-inner">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 text-center">
+								<h1 class="to-animate">Színvonalas programozó tanfolyamok <span>bárkinek</span></h1>
+								<h2 class="to-animate"><h2>Oktatóink elismert fejlesztők, akik örömmel adják át megszerzett tudásukat</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+<!--Courses section-->
+    <section id="services" data-section="services">
+      <div class="services">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 section-heading text-center">
+              <h2 class="animated fadeInUp"><span>AMIT DIÁKJAINK ELSAJÁTÍTANAK</span></h2>
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 subtext">
+                  <h3 class="animated fadeInUp">Szeretnénk, hogy a tanulóink a szakma mindegyik területével megismerkedjenek, ezáltal eldönthessék, hogy a front-end vagy a back-end világa áll hozzá közelebb, esetleg full stack fejlesztő szeretne lenni.</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 text-center">
+              <div class="box-services">
+                <div class="icon animated fadeInUp">
+                  <span><i class="icon-puzzle"></i></span>
+                </div>
+                <div class="post animated fadeInUp">
+                  <h3>HTML5</h3>
+                  <p>A HTML egy hiperszöveges jelölőnyelv, melyet weboldalak elkészítésére használunk <b><></b>tagek<b><></b> használatával. A HTML felel a weboldal tartalmáért és annak sorrendbeli kinézetéért.</p>
+                </div>
+              </div>
+
+              <div class="box-services">
+                <div class="icon animated fadeInUp">
+                  <span><i class="icon-key"></i></i></span>
+                </div>
+                <div class="post animated fadeInUp">
+                  <h3>MongoDB</h3>
+                  <p>A MongoDB egy nyílt forráskódú dokumentumorientált adatbázis szoftver.  A MongoDB-t olyan nagyobb felhasználók is használják, mint az MTV Networks, a Craigslist és a FourSquare.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 text-center">
+              <div class="box-services">
+                <div class="icon animated fadeInUp">
+                  <span><i class="icon-magic-wand"></i></span>
+                </div>
+                <div class="post animated fadeInUp">
+                  <h3>CSS3</h3>
+                  <p>Jelentése egymásba ágyazott stíluslap. A HTML oldalaink megjelenését befolyásoló nyelv, mely segítségével meghatározhatjuk, hogy hogyan és hol jelenjenek meg az egyes HTML elemek.</p>
+                </div>
+              </div>
+
+              <div class="box-services">
+                <div class="icon animated fadeInUp">
+                  <span><i class="icon-notebook"></i></span>
+                </div>
+                <div class="post animated fadeInUp">
+                  <h3>jQuery</h3>
+                  <p>A jQuery egy JS könyvtár, ami a kliensoldali JavaScript és a HTML kód közötti kapcsolatot teszi egyszerűbbé, több funkcióval látja el. Alapelve, hogy minél inkább leválassza a HTML-ről a JS kódot.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 text-center">
+              <div class="box-services">
+                <div class="icon animated fadeInUp">
+                  <span><i class="icon-paper-plane"></i></span>
+                </div>
+                <div class="post animated fadeInUp">
+                  <h3>JavaScript</h3>
+                  <p>Egy objektumalapú programozási nyelv, amelynek segítségével beépíthetünk programokat a HTML dokumentumba. A régen népszerű Netscape böngésző alkotóinak keze alatt született.</p>
+                </div>
+              </div>
+
+              <div class="box-services">
+                <div class="icon animated fadeInUp">
+                  <span><i class="icon-pin"></i></span>
+                </div>
+                <div class="post animated fadeInUp">
+                  <h3>Angular JS</h3>
+                  <p>A Google által fejlesztett, nyílt forráskódú JavaScript keretrendszer dinamikus webes alkalmazásokhoz. Segítségével nagyban egyszerűsödik a webes alkalmazások frontend fejlesztése.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 text-center">
+              <div class="box-services">
+                <div class="icon animated fadeInUp">
+                  <span><i class="icon-screen-desktop"></i></span>
+                </div>
+                <div class="post animated fadeInUp">
+                  <h3>UX & UI design</h3>
+                  <p>A UX a felhasználói élmény megtervezését jelenti. A UI ezzel szemben a felhasználói felület vizuális megjelenítéséért felelős. Egy weboldal létrehozásánál mindkettőre szükség van. </p>
+                </div>
+              </div>
+
+              <div class="box-services">
+                <div class="icon animated fadeInUp">
+                  <span><i class="icon-cursor-move"></i></span>
+                </div>
+                <div class="post animated fadeInUp">
+                  <h3>Bootstrap</h3>
+                  <p>Egy keretrendszer, melynek segítségével reszponzív felületeket hozhatunk létre HTML alapokon. A Bootstrap az eddigi legnépszerűbb mobil alapú, reszponzív rendszer a fejlesztők körében.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="extra-services">
+        <div class="grid2 animated fadeInUp" style="background-image: url(images/school.jpg);">
+        </div>
+        <div class="grid2 bg-color">
+          <div class="core-f">
+            <h2 class="animated fadeInUp">Ezért vagyunk a legjobbak:</h2>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="core">
+                  <i class="icon-cloud-download animated fadeInUp-2"></i>
+                  <div class="post animated fadeInUp">
+                    <h3>Letölthető tananyag</h3>
+                    <p>A nálunk tanuló diákjainknak nem kell jegyzetekkel bajlódniuk. Nyugodtan figyelhetnek az órákon és otthon ingyen letölthetik az aznapi tananyagot.</p>
+                  </div>
+                </div>
+                <div class="core">
+                  <i class="icon-laptop animated fadeInUp-2"></i>
+                  <div class="post animated fadeInUp">
+                    <h3>PC és laptop használat</h3>
+                    <p>Hagyd otthon a laptopodat és helyette dobj be egy pendrive-ot a táskádba. Nálunk szabadon használhatod a gépeket. A nap végén csak dobd rá a pendrive-ra kódjaidat és a szükséges fájlokat!</p>
+                  </div>
+                </div>
+                <div class="core">
+                  <i class="icon-hand-paper-o animated fadeInUp-2"></i>
+                  <div class="post animated fadeInUp">
+                    <h3>24 órás segítség</h3>
+                    <p>Ha elakadnál az otthoni kódolás közben, nem kell várnod a legközelebbi óráig, hogy a tanárodtól megtudd mi a probléma. Munkatársaink segítenek neked bármikor slack-en.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="core">
+                  <i class="icon-lightbulb-o animated fadeInUp-2"></i>
+                  <div class="post animated fadeInUp">
+                    <h3>Modern megoldások</h3>
+                    <p>Tanáraink fontosnak tartják, hogy modern megoldásokat és keretrendszereket sajátítsanak el a legújabb technológiákkal.</p>
+                  </div>
+                </div>
+                <div class="core">
+                  <i class="icon-users animated fadeInUp-2"></i>
+                  <div class="post animated fadeInUp">
+                    <h3>Közös projektek</h3>
+                    <p>Nem kell várnod az első munkahelyedig, hogy kiderüljön számodra hogyan kell csapatban egy közös projekten dolgozni. Minden héten 4-5 fős csapatokban kooperálhattok és ötletelhettek.</p>
+                  </div>
+                </div>
+                <div class="core">
+                  <i class="icon-certificate animated fadeInUp-2"></i>
+                  <div class="post animated fadeInUp">
+                    <h3>Akkreditált Bizonyítvány</h3>
+                    <p>Mind az itthoni mind pedig a külföldi vállalatok számára is fontos az akkreditált bizonyítvány, mint hitelesítő eszköz. A feltétele a sikeres záróvizsga és egy projekt munka.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 <!-- Blog section -->
   <!--Title & text -->
-    <section id="blogtext" data-secton="blogtext">
+    <section id="blogtext" data-section="blogtext">
       <div class="container">
         <div class="row">
           <div class="col-md-12 section-heading text-center">
@@ -80,7 +280,121 @@
                 </div>
               </div>
             </div>
-            
-          </section>
-        </body>
-      </html>
+            <!-- second column -->
+
+                <div class="col-md-4 text-center">
+                  <div class="blog-grid animated fadeInUp-2" style="background-image: url(images/meeting2.jpg);">
+                    <div class="desc">
+                      <h3><a href="#">Na de mi az a Scrum?</a></h3>
+                      <span>Kiss Anita</span>
+
+                      <p class="download"><a href="#"><i class="icon-download"></i></a></p>
+                      <p class="love"><a href="#"><i class="icon-heart-o"></i></a></p>
+                    </div>
+                  </div>
+                  <div class="blog-grid animated fadeInUp-2" style="background-image: url(images/startup.jpg);">
+                    <div class="desc">
+                      <h3><a href="#">Juniorprogramozóként egy napom</a></h3>
+                      <span>Tapolcai Enikő</span>
+
+                      <p class="download"><a href="#"><i class="icon-download"></i></a></p>
+                      <p class="love"><a href="#"><i class="icon-heart-o"></i></a></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="blog-grid animated fadeInUp-2" style="background-image: url(images/designer.jpg);">
+                        <div class="desc">
+                          <h3><a href="#">Designerként az életem</a></h3>
+                          <span>Martoni Nikolett</span>
+
+                          <p class="download"><a href="#"><i class="icon-download"></i></a></p>
+                          <p class="love"><a href="#"><i class="icon-heart-o"></i></a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="blog-grid animated fadeInUp-2" style="background-image: url(images/ux&ui.jpg);">
+                        <div class="desc">
+                          <h3><a href="#">UX vs UI</a></h3>
+                          <span>Varga Márton</span>
+
+                          <p class="download"><a href="#"><i class="icon-download"></i></a></p>
+                          <p class="love"><a href="#"><i class="icon-heart-o"></i></a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+            <!-- third column -->
+
+                <div class="col-md-4 text-center">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="blog-grid animated fadeInUp-2" id="now-later" style="background-image: url(images/now-later.jpg);">
+                        <div class="desc">
+                          <h3><a href="#">Így hagyd abba a halogatást</a></h3>
+                          <span>Fábián Réka</span>
+
+                          <p class="download"><a href="#"><i class="icon-download"></i></a></p>
+                          <p class="love"><a href="#"><i class="icon-heart-o"></i></a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="blog-grid animated fadeInUp-2" style="background-image: url(images/tasks.jpg);">
+                        <div class="desc">
+                          <h3><a href="#">A jó teendőlista alapjai</a></h3>
+                          <span>Molnár Imre</span>
+
+                          <p class="download"><a href="#"><i class="icon-download"></i></a></p>
+                          <p class="love"><a href="#"><i class="icon-heart-o"></i></a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="blog-grid animated fadeInUp-2" style="background-image: url(images/colorfulteam.jpg);">
+                    <div class="desc">
+                      <h3><a href="#">A hatékony csapat titkai</a></h3>
+                      <span>Szabó Ernő</span>
+
+                      <p class="download"><a href="#"><i class="icon-download"></i></a></p>
+                      <p class="love"><a href="#"><i class="icon-heart-o"></i></a></p>
+                    </div>
+                  </div>
+                  <div class="blog-grid animated fadeInUp-2" style="background-image: url(images/work.jpg);">
+                    <div class="desc">
+                      <h3><a href="#">Feladat megosztás</a></h3>
+                      <span>Réti Gergő</span>
+
+                      <p class="download"><a href="#"><i class="icon-download"></i></a></p>
+                      <p class="love"><a href="#"><i class="icon-heart-o"></i></a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- jQuery -->
+    		<script src="js/jquery.min.js"></script>
+    		<!-- jQuery Easing -->
+    		<script src="js/jquery.easing.1.3.js"></script>
+    		<!-- Bootstrap -->
+    		<script src="js/bootstrap.min.js"></script>
+    		<!-- Waypoints -->
+    		<script src="js/jquery.waypoints.min.js"></script>
+    		<!-- Stellar Parallax -->
+    		<script src="js/jquery.stellar.min.js"></script>
+    		<!-- Owl Carousel -->
+    		<script src="js/owl.carousel.min.js"></script>
+    		<!-- Counters -->
+        <script src="js/jquery.countTo.js"></script>    	
+    		<!-- Main JS (Do not remove) -->
+    		<script src="js/main.js"></script>
+
+      </body>
+    </html>
